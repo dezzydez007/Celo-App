@@ -1,0 +1,52 @@
+{
+  "name": "test",
+  "private": true,
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.8",
+    "@celo-tools/use-contractkit": "3.0.0-beta2",
+    "@celo/contractkit": "^1.5.1",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.4.0",
+    "@storybook/builder-webpack5": "^6.4.19",
+    "autoprefixer": "^10.4.2",
+    "bignumber.js": "^9.0.2",
+    "ethers": "^5.5.3",
+    "graphql": "^16.3.0",
+    "next": "^12.0.10",
+    "next-pwa": "^5.4.4",
+    "notistack": "^2.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "typescript": "^4.5.5",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-interactions": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/manager-webpack5": "^6.4.19",
+    "@storybook/react": "^6.4.19",
+    "@storybook/testing-library": "^0.0.9",
+    "@types/react": "^17.0.38",
+    "babel-loader": "^8.2.3",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "tsconfig-paths-webpack-plugin": "^3.5.2",
+    "webpack": "^5.69.1"
+  }
+}
